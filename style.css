@@ -1,0 +1,72 @@
+
+
+
+.card-body{
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    /* color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.card-subtitle{
+    font-size: 2rem;
+}
+
+.card-title{
+    font-size: 2rem;
+}   
+
+.container{
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.hide{
+    display: none;
+    opacity: 0 !important;
+    padding: 0 !important;
+}
+
+.admin_profile_box{
+    width: 50px;
+    height: 50px;
+    
+    background-color: rgb(217, 20, 20);
+    border-radius: 50%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.logo_out{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px gray;
+    padding: 10px;
+    user-select: none;
+    z-index: 999;
+}
+
+.logo_out p:hover{
+
+    font-weight: 800;
+    background-color:blue;
+    color: white;
+}
+
+
+.profile_img{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+}
